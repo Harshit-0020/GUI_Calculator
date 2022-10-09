@@ -109,6 +109,7 @@ public class Calculator implements ActionListener {
         frame.add(delButton);
         frame.add(clrButton);
         frame.add(negButton);
+        frame.setLocationRelativeTo(null);
         frame.setVisible(true);
 
 
